@@ -1,0 +1,107 @@
+:root{
+    --bg-colour:#322653;
+    --btn-colour:#Ea1179;
+    --box-shadow:0px 0px 5px var(--btn-colour);
+    --color:#fff;
+
+
+}
+body{
+
+    margin: 0;
+    background-color: var(--bg-colour);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #Ea1179;
+}
+.logo{
+    color: var(--color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.logo label{
+    color: var(--btn-colour);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav ul a{
+    color: var(--color);
+    text-decoration: none;
+    transition: all .8s;
+}
+nav ul a:hover{
+    color: var(--btn-colour);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+.container .left{
+    color: var(--color);
+    width: 200%; 
+}
+.container .left{
+    margin: 0;
+}
+.container .right{
+    color: var(--color);
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+}
+.right img{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    right: -150px;
+    transition: 1s;
+
+}
+.right img:hover{
+    right: -100px;
+}
+.container .left .sub{
+    color: var(--btn-colour);
+}
+button{
+    background-color: var(--color);
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: var(--btn-colour);
+
+}
+button:hover{
+    color:black
+}
+.social-links{
+    margin-left: 10%;
+    margin-top: -80px;
+}
+.social-links a{
+    font-size: 30px;
+    color: orange;
+    margin-right: 20px;
+}
+.social-links a:hover{
+    color: #Ea1179;
+
+}
+
